@@ -14,7 +14,7 @@ app.use(resrouter)
 app.use(router)
 
 
-app.listen(1000,async()=>{
+app.listen(3030,async()=>{
     try {
         await connection
         console.log("connected to db");
